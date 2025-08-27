@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestesBackEnd.Paginas.SQL"
+             Title="SQL">
+    <VerticalStackLayout>
+        <Label 
+            Text="🔹 3. Banco na nuvem
+
+Outra opção é subir o banco em um serviço de nuvem (Azure SQL, AWS RDS, PlanetScale etc.), e então o app se conecta a ele sem depender do notebook."
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>
