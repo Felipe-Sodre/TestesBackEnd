@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestesBackEnd.Paginas.Informacao"
+             Title="Informacao">
+    <VerticalStackLayout>
+        <Label 
+            Text="Projeto de testes iniciado no dia 16/08/2025 com o objetivo de me aprofundar na programação mobile 1>TestesBackEnd -> C:\VS\TestesBackEnd\TestesBackEnd\bin\Debug\net8.0-android\TestesBackEnd.dll"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>

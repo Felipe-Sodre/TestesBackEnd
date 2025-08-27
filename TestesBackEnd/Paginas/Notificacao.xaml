@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestesBackEnd.Paginas.Notificacao"
+             Title="Notificacao">
+    <VerticalStackLayout>
+        <Label 
+            Text="Criar tipos de notificações"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+  
+        <Entry x:Name="Campo1"/>
+        
+        <Button x:Name="Enviar" Text="Enviar" Clicked="Enviar_Clicked"/>
+
+        <Label x:Name="Texto1"/>
+
+    </VerticalStackLayout>
+</ContentPage>

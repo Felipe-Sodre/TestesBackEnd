@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestesBackEnd.Paginas.Login"
+             Title="Login">
+    <VerticalStackLayout>
+        <Entry x:Name="txtUsuario" Placeholder="Usuário"/>
+        <Entry x:Name="txtSenha" Placeholder="Senha" IsPassword="True" />
+        <Button x:Name="Enviar" Text="Enviar" Clicked="Enviar_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>
